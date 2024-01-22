@@ -1,4 +1,4 @@
-.header{
+.header {
     margin: 92px 24px 96px;
     padding-right: 26px;
     padding-left: 26px;
@@ -9,41 +9,41 @@
     letter-spacing: 0.18px;
 }
 
-a{
+a {
     text-underline-offset: 4px;
 }
 
-.header__logo{
+.header__logo {
     display: block;
     width: 148px;
     height: 105px;
 }
 
-.header__logo-image{
+.header__logo-image {
     height: 100%;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     align-items: center;
 }
 
-.header__links-list{
+.header__links-list {
     display: flex;
     gap: 32px;
     list-style: circle;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     list-style-type: none;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
     letter-spacing: normal;
 }
 
-.address{
+.address {
     width: 240px;
     line-height: 1.35;
     font-style: normal;
@@ -55,16 +55,16 @@ a{
     width: 240px;
 }
 
-.address p{
+.address p {
     letter-spacing: normal;
 }
 
-.header__address{
+.header__address {
     justify-self: end;
     align-self: center;
 }
 
-.cover{
+.cover {
     width: 100%;
     background-image: url(../images/cover.jpg);
     background-size: cover;
@@ -74,7 +74,7 @@ a{
     margin-bottom: 179px;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -85,7 +85,7 @@ a{
     z-index: -1;
 }
 
-.cover__title{
+.cover__title {
     padding: 165px 50px 135px;
     color: #FFF;
     font-size: 100px;
@@ -100,27 +100,27 @@ a{
 }
 
 .aligned-text_center,
-.aligned-text_right{
+.aligned-text_right {
     line-height: 99px;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 60px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0;
 }
 
-.aligned-text_center{
+.aligned-text_center {
     padding-left: 286px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     text-align: right;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
@@ -132,19 +132,19 @@ a{
     text-transform: uppercase;
 }
 
-.cover__description-text{
+.cover__description-text {
     align-self: center;
 }
 
-.cover__description-text-spacing-1{
+.cover__description-text-spacing-1 {
     word-spacing: 20px;
 }
 
-.cover__description-text-spacing-2{
+.cover__description-text-spacing-2 {
     word-spacing: 18px;
 }
 
-.bet-button{
+.bet-button {
     border: 1px solid #FFF;
     background-color: transparent;
     color: #FFF;
@@ -156,11 +156,11 @@ a{
     padding: 12px 32px;
 }
 
-.lots{
+.lots {
     margin: 0 24px 146px;
 }
 
-.lots__heading{
+.lots__heading {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -168,7 +168,7 @@ a{
     margin-bottom: 27px;
 }
 
-.lots__card-list{
+.lots__card-list {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -177,19 +177,19 @@ a{
     
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     min-height: 563px;
     width: 334px;
     flex-grow: 1;
 }
 
-.card-link{
+.card-link {
     display: block;
     height: 100%;
     text-decoration: none;
 }
 
-.card{
+.card {
     height: 100%;
     padding: 51px 40px 48px;
     position: relative;
@@ -199,25 +199,25 @@ a{
     justify-content: space-between;
 }
 
-.card_type_film{
+.card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.card_type_book{
+.card_type_book {
     background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.card_type_picture{
+.card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.card__title{
+.card__title {
     color: #fff;
     font-size: 22px;
     font-weight: 700;
@@ -227,23 +227,23 @@ a{
     text-transform: uppercase;
 }
 
-.card__text{
+.card__text {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.9px;
 }
 
-.card__text-spacing{
+.card__text-spacing {
     letter-spacing: 2.6px;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     font-size: 20px;
     margin-left: 40px;
 }
 
-.about{
+.about {
     margin: 0 24px 181px;
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -251,7 +251,7 @@ a{
     justify-items: center;
 }
 
-.about__logo{
+.about__logo {
     width: 240px;
     height: 240px;
     background-color: #000;
@@ -262,17 +262,17 @@ a{
     align-items: center;
 }
 
-.about__logo-image{
+.about__logo-image {
     width: 148px;
 }
 
-.about__column{
+.about__column {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.about__title{
+.about__title {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -280,68 +280,68 @@ a{
     margin-bottom: 76px;
 }
 
-.about__text{
+.about__text {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.2px;
 }
 
-.about__text-spacing-1{
+.about__text-spacing-1 {
     letter-spacing: normal;
 }
 
-.about__text-spacing-2{
+.about__text-spacing-2 {
     letter-spacing: 0.4px;
 }
 
-.about__text-spacing-3{
+.about__text-spacing-3 {
     letter-spacing: -0.2px;
 }
 
-.about__text-spacing-4{
+.about__text-spacing-4 {
     letter-spacing: 0.6px;
 }
 
-.about__text-no-spacing{
+.about__text-no-spacing {
     letter-spacing: normal;
     width: 690px;
 }
 
-.about__text-spacing-5{
+.about__text-spacing-5 {
     letter-spacing: 0.8px;
 }
 
-.about__text-spacing-6{
+.about__text-spacing-6 {
     letter-spacing: 0.2px;
 }
 
-.footer{
+.footer {
     margin: 0 50px 88px;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer__menu{
+.footer__menu {
     text-align: center;
 }
 
 .footer__links-list,
-.footer__social-list{
+.footer__social-list {
     list-style: none;
 }
 
-.footer__social-list{
+.footer__social-list {
     display: flex;
     gap: 48px;
 }
 
-.footer__link_active{
+.footer__link_active {
     text-decoration: none;
 }
 
-.footer__social-link{
+.footer__social-link {
     width: 48px;
     display: block;
 }
