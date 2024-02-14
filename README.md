@@ -1,5 +1,6 @@
 <h1>Проект «Оно тебе надо»</h1>
 Проектная работа №1 на курсе «Фронтенд-разработчик» от сервиса Яндекс Практикум
 
-<h2>Ссылка проекта</h2>
-Ссылка на проект для просмотра - https://github.com/malcevlad/ono-tebe-nado.git
+<h2>Ссылки проекта</h2>
+Ссылка на проект - https://github.com/malcevlad/ono-tebe-nado.git
+Ссылка для просмотра - https://malcevlad.github.io/ono-tebe-nado/
